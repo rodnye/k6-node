@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm",
   "dependencies": {
     "commander": "^14.0.2",
     "tar": "^7.5.2",
