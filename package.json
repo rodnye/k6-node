@@ -1,6 +1,6 @@
 {
   "name": "k6-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool that enables k6 installation via npm packages",
   "main": "./dist/index.js",
   "bin": {
@@ -16,7 +16,7 @@
   ],
   "keywords": [],
   "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10",
   "dependencies": {
     "commander": "^14.0.2",

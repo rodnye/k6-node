@@ -35,7 +35,7 @@ A CLI tool that solves a gap in the k6 ecosystem: **k6 currently doesn't support
 
 ## Features
 
-- Downloads and installs the appropriate k6 binary for your platform. Works on Windows, Linux and MacOS _(not tested MacOS)_
+- Downloads and installs the appropriate k6 binary for your platform. Works on Windows, Linux and MacOS
 - Use k6 as a proper npm dependency in your projects
 - Configure custom k6 binary paths via `.k6path` file
 
