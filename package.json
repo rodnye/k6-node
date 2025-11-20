@@ -14,7 +14,27 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "k6",
+    "load-testing",
+    "performance-testing",
+    "stress-testing",
+    "cli-tool",
+    "npm-install",
+    "binary-install",
+    "testing-tools",
+    "devops",
+    "qa",
+    "automation",
+    "nodejs",
+    "javascript",
+    "api-testing",
+    "loadrunner",
+    "performance",
+    "testing",
+    "ci-cd",
+    "development-tools"
+  ],
   "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
   "license": "MIT",
   "packageManager": "pnpm",

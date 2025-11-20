@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/k6-node.svg" alt="k6-node logo" width="210" height="210" />
+  <img src="https://raw.githubusercontent.com/rodnye/k6-node/refs/heads/main/assets/k6-node.svg" alt="k6-node logo" width="210" height="210" />
 </p>
 
 <h3 align="center"> K6 for Nodejs </h3>
@@ -24,7 +24,7 @@
 
 ## Overview
 
-A CLI tool that solves a gap in the k6 ecosystem: **k6 currently doesn't support installation via npm packages**. This package enables you to define k6 as a dependency in your project and automatically handles the binary installation process.
+A CLI tool that solves a gap in the [k6 ecosystem](https://github.com/grafana/k6): **k6 currently doesn't support installation via npm packages**. This package enables you to define k6 as a dependency in your project and automatically handles the binary installation process.
 
 ## Related Documentation
 
