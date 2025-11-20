@@ -1,14 +1,15 @@
 {
   "name": "k6-node",
-  "version": "0.0.2",
+  "version": "0.3.1",
   "description": "CLI tool that enables k6 installation via npm packages",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "bin": {
     "k6-node": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts",
+    "dev": "tsx src/index.ts",
+    "test": "tsx tests/generated-scripts.ts",
     "prepublishOnly": "pnpm run build"
   },
   "files": [
@@ -22,13 +23,8 @@
     "cli-tool",
     "npm-install",
     "binary-install",
-    "testing-tools",
-    "devops",
-    "qa",
     "automation",
     "nodejs",
-    "javascript",
-    "api-testing",
     "loadrunner",
     "performance",
     "testing",
@@ -37,14 +33,13 @@
   ],
   "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm",
   "dependencies": {
-    "commander": "^14.0.2",
     "tar": "^7.5.2",
     "zip-lib": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }
