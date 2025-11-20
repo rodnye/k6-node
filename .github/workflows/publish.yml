@@ -29,7 +29,7 @@ jobs:
           pnpm install
           pnpm build
       
-      - name: Publish to NPM
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          pnpm publish
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v4
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
