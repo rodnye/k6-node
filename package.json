@@ -4,7 +4,7 @@
   "description": "CLI tool that enables k6 installation via npm packages",
   "main": "./dist/index.js",
   "bin": {
-    "k6-node": "./dist/cli.js"
+    "k6-node": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
   "license": "ISC",
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10",
   "dependencies": {
     "commander": "^14.0.2",
     "tar": "^7.5.2",
