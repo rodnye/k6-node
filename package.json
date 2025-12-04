@@ -1,6 +1,6 @@
 {
   "name": "k6-node",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "CLI tool that enables k6 installation via npm packages",
   "main": "dist/index.js",
   "bin": {

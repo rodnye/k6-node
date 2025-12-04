@@ -1,4 +1,4 @@
-import { spawn } from 'child_process';
+import { spawn, StdioOptions } from 'child_process';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
@@ -222,6 +222,7 @@ export class K6TestBuilder {
       quiet?: boolean;
       verbose?: boolean;
       environment?: Record<string, string>;
+      stdio?: StdioOptions;
     } = {}
   ): Promise<void> {
     const script = this.generateScript();
@@ -264,7 +265,7 @@ export class K6TestBuilder {
         };
 
         const childProcess = spawn(bin, args, {
-          stdio: 'inherit',
+          stdio: options.stdio || 'inherit',
           env,
         });
 
